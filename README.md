@@ -1,7 +1,7 @@
 ## versionsort
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/haya14busa/versionsort?status.svg)](https://godoc.org/github.com/haya14busa/versionsort)
+[![GoDoc](https://godoc.org/github.com/haya14busa/go-versionsort?status.svg)](https://godoc.org/github.com/haya14busa/go-versionsort)
 
 ### Usage
 
