@@ -12,10 +12,10 @@ import (
 func ExampleVersionSort() {
 	strs := []string{
 		"v1.1",
-		"v1.9",
-		"v1.8",
 		"v1.10",
 		"v1.11",
+		"v1.9",
+		"v1.8",
 	}
 	Sort(strs, false)
 	for _, s := range strs {
