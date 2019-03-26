@@ -24,7 +24,6 @@ func Sort(strs []string, desc bool) {
 
 // Less returns true l should sort before the r.
 func Less(l, r string) bool {
-	_ = sort.Sort
 	if l == "" || r == "" {
 		return l < r
 	}
