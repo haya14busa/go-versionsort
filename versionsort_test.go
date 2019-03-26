@@ -9,7 +9,7 @@ import (
 	"testing"
 )
 
-func ExampleVersionSort() {
+func ExampleSort() {
 	strs := []string{
 		"v1.1",
 		"v1.10",
@@ -29,7 +29,7 @@ func ExampleVersionSort() {
 	// v1.11
 }
 
-func ExampleVersionSort_reverse() {
+func ExampleSort_reverse() {
 	strs := []string{
 		"v1.1",
 		"v1.9",
@@ -49,7 +49,7 @@ func ExampleVersionSort_reverse() {
 	// v1.1
 }
 
-func ExampleVersionSort_haya14busa() {
+func ExampleSort_haya14busa() {
 	strs := []string{
 		"haya2busa",
 		"haya1busa",
@@ -67,11 +67,11 @@ func ExampleVersionSort_haya14busa() {
 	// haya14busa
 }
 
-func TestVersionSort(t *testing.T) {
-	testVersionSortFile(t, "test1")
+func TestSort(t *testing.T) {
+	testSortFile(t, "test1")
 }
 
-func testVersionSortFile(t *testing.T, name string) {
+func testSortFile(t *testing.T, name string) {
 	infile := fmt.Sprintf("testdata/%s.in", name)
 	in, err := os.Open(infile)
 	if err != nil {
